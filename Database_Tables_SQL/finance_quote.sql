@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS finance_quote;
 
 CREATE TABLE finance_quote (
 	ask DEC,
-	askSize INT,
+	"askSize" INT,
 	"averageAnalystRating" VARCHAR(30), 
 	"averageDailyVolume10Day" INT,
 	"averageDailyVolume3Month" INT,
