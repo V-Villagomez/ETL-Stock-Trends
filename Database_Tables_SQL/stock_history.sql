@@ -8,7 +8,8 @@ CREATE TABLE stock_history (
 	close DEC,
 	adjclose DEC,
 	volume INT,
-	ticker VARCHAR(20)
+	ticker VARCHAR(20),
+	jobTimestamp TIMESTAMP
 );
 
 

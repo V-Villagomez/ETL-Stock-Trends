@@ -67,7 +67,7 @@ CREATE TABLE finance_quote (
 	sharesOutstanding INT,
 	shortName VARCHAR(100),
 	sourceInterval INT,
-	symbol VARCHAR(10),
+	symbol VARCHAR(20),
 	tradeable BOOLEAN,
 	trailingAnnualDividendRate DEC,
 	trailingAnnualDividendYield DEC,
@@ -76,7 +76,19 @@ CREATE TABLE finance_quote (
 	twoHundredDayAverage DEC,
 	twoHundredDayAverageChange DEC,
 	twoHundredDayAverageChangePercent DEC,
-	jobTimestamp TIMESTAMP
+	jobTimestamp TIMESTAMP,
+	ipoExpectedDate DATE,
+	prevName VARCHAR(100),
+	nameChangeDate DATE,
+	newListingDate DATE,
+	circulatingSupply INT,
+	lastMarket VARCHAR(50),
+	volume24Hr INT,
+	volumeAllCurrencies INT,
+	fromCurrency VARCHAR(30),
+	toCurrency VARCHAR(30),
+	startDate INT,
+	coinImageUrl VARCHAR(100)
 );
 
 
