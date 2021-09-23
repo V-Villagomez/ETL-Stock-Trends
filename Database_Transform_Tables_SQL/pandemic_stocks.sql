@@ -6,7 +6,7 @@ CREATE TABLE pandemic_stocks (
 	high DEC,
 	low DEC,
 	close DEC,
-	volume INT,
+	volume BIGINT,
 	ticker VARCHAR(20)
 );
 
