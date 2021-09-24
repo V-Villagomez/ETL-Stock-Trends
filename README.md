@@ -15,7 +15,7 @@ As a way to guide our efforts, we've asked the following questions:
 
 ## Sources and Platforms
 
-* Open Source Libarary: Yahoo_Fin
+* Open Source Library: Yahoo_Fin
 * Jupyter Notebook
 * Pandas/Python
 * Requests
