@@ -9,11 +9,17 @@ Ricky Lee | Henry Tirado | Vanessa Villagomez
 Curious about stock trends? We, the "Sweet Stocks," will be **Extracting** data from a reputable source and will **Transform** the data as best possible to **Load** structured data that will show specific stock trends. 
 
 As a way to guide our efforts, we've asked the following questions:
-* What are the stocks of most interest per specified regions? 
-* What stocks are most popular in the U.S.? 
-* What are some positive and negative trends in stocks per specific region?
+* What are the stocks of most interest per specified regions?
+* Are trending stocks the most volatile stocks in the specified regions? Compare the 20 trending stocks vs. SYP (symbol tracks S&P 500 - tracks top 500 companies in the U.S.)
+* Among the 20 trending stocks, what is the average gain or loss "pre-covid" vs. "during covid"? ("Pre-covid" Time - March, 2019 - March, 2020" vs "During Covid Time - March,2020 - March,2021)
 
 ## Sources and Platforms
+
+* Open Source Libarary: Yahoo_Fin
+* Jupyter Notebook
+* Pandas/Python
+* Requests
+* PostgreSQL
 
 ## Extract
 We used 2 APIs from www.yahoofinanceapi.com and one open source library (osl).
@@ -42,3 +48,6 @@ Once the data was decoded into JSON, we had to figure out how to reach the data 
 Our PostgreSQL loading kept requiring us to update our table create SQL statements to compensate for mixed case column names and numeric columns that were not large enough.
 
 ## What's Next
+* Further transform the extracted data in order analyze the data by answering the questions. 
+* Create visualization to further analyze the data. 
+* Review raw data extracted to identify if there are other data points worth analyzing. 
