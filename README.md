@@ -48,6 +48,6 @@ Once the data was decoded into JSON, we had to figure out how to reach the data 
 Our PostgreSQL loading kept requiring us to update our table create SQL statements to compensate for mixed case column names and numeric columns that were not large enough.
 
 ## What's Next
-* Further transform the extracted data in order analyze the data by answering the questions. 
-* Create visualization to further analyze the data. 
+* Further transform the extracted data in order to analyze the data and answer the imposed questions. 
+* Create visualizations to further analyze the data. 
 * Review raw data extracted to identify if there are other data points worth analyzing. 
