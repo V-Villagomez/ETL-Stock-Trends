@@ -11,7 +11,7 @@ Curious about stock trends? We, the "Sweet Stocks," will be **Extracting** data 
 As a way to guide our efforts, we've asked the following questions:
 * What are the stocks of most interest per specified regions?
 * Are trending stocks the most volatile stocks in the specified regions? Compare the 20 trending stocks vs. SYP (symbol tracks S&P 500 - tracks top 500 companies in the U.S.)
-* Among the 20 trending stocks, what is the average gain or loss "pre-covid" vs. "during covid"? ("Pre-covid" Time - March, 2019 - March, 2020" vs "During Covid Time - March,2020 - March,2021)
+* Among the 20 trending stocks, what is the average gain or loss "pre-covid" vs. "during covid"? ("Pre-covid Period" - March, 2019 to March, 2020 vs. "During Covid Period " - March,2020 to March,2021)
 
 ## Sources and Platforms
 
